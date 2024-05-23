@@ -1,6 +1,7 @@
 {
 	"textures": [
 		{
+			
 			"image": "tilemap-characters-packed.png",
 			"format": "RGBA8888",
 			"size": {

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="16">
+ <editorsettings>
+  <export target="lavaLevel1.tmj" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="SimpleTileset" tilewidth="32" tileheight="32" tilecount="392" columns="28">
+  <image source="platformPack_tilesheet.png" width="896" height="448"/>
+ </tileset>
+ <tileset firstgid="393" name="Gem" tilewidth="64" tileheight="64" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="64" height="64" source="../../../Downloads/kenney_simplified-platformer-pack/PNG/Items/platformPack_item010.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="394" name="Key" tilewidth="64" tileheight="64" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="64" height="64" source="../../../Downloads/kenney_simplified-platformer-pack/PNG/Items/platformPack_item016.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Ground-n-Platforms" width="30" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,303,303,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,9,10,9,10,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,79,80,0,0,37,37,38,38,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,107,108,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,30,0,0,
+1,1,2,2,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,1,0,0,0,0,79,80,
+30,30,30,30,0,11,12,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,107,108,
+30,30,30,30,67,39,2,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,299,300,
+30,30,30,30,39,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,327,328,
+30,30,30,30,39,67,11,12,11,12,11,12,11,12,11,12,11,12,11,12,11,12,11,12,11,12,11,12,71,72,
+39,40,39,40,39,40,39,40,39,40,39,40,39,40,39,40,39,40,39,40,39,40,39,40,39,40,39,40,39,40,
+67,68,67,68,67,68,67,68,67,68,67,68,67,68,67,68,67,68,67,68,67,68,67,68,67,68,67,68,67,68,
+95,96,95,96,95,96,95,96,95,96,95,96,95,96,95,96,95,96,95,96,95,96,95,96,95,96,95,96,95,96
+</data>
+ </layer>
+ <objectgroup id="4" name="Objects" offsetx="0" offsety="0.892691">
+  <object id="13" gid="393" x="444.697" y="63.2442" width="64" height="64"/>
+  <object id="14" gid="394" x="446.482" y="109.664" width="64" height="64"/>
+ </objectgroup>
+</map>
